@@ -16,7 +16,7 @@ Use an underscore `_` at the start of a class to identify a component or module.
 
 Use a hyphen `-` to indicate and target a child group e.g. `.-bg`
 
-Use an asterix `*` to indicate a state or variant. e.g. `.\_btn.\*lg`
+Use an asterix `*` to indicate a state or variant. e.g. `._btn.*lg`
 
 ### Example html
 
