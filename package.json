@@ -2,7 +2,7 @@
   "name": "signpost",
   "version": "0.0.1",
   "description": "An approach to CSS",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf dist coverage *.log",
     "compile": "npm run clean && tsc",

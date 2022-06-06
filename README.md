@@ -8,15 +8,17 @@ Improve the scannability of your CSS classes.
 
 At this point I split out all the CSS into a relevant file, and use this plugin and these conventions to add some structure and signposting to help with scannability.
 
+This plugin escapes the special characters `_ , - , *` used in CSS classes in the conventions below.
+
 ## Conventions
 
 Use an underscore `_` at the start of a class to identify a component or module. e.g. `._btn`
 
-Use a hyphen to indicate and target a child group e.g. `.-bg`
+Use a hyphen `-` to indicate and target a child group e.g. `.-bg`
 
-Use an asterix `*` to indicate a state or variant. e.g. `.\_btn.\*lg
+Use an asterix `*` to indicate a state or variant. e.g. `.\_btn.\*lg`
 
-Here's an example module
+### Example html
 
 ```html
 <div class="_module *audio w-full">
@@ -26,7 +28,7 @@ Here's an example module
 </div>
 ```
 
-and some corresponding CSS
+### Example CSS
 
 ```css
 ._module {
@@ -39,7 +41,3 @@ and some corresponding CSS
   @apply flex-grow;
 }
 ```
-
-## Escaping special characters
-
-This plugin escapes the special characters (\_,-,\*) used in utility CSS classes in the methods above.

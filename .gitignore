@@ -10,7 +10,6 @@ node_modules/
 # Optional npm cache directory
 .npm
 
-dist/
 .vscode/
 
 # Coverage directory used by tools like istanbul
